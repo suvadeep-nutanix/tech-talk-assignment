@@ -5,6 +5,6 @@ import (
 	_ "github.com/jackc/pgx/v4/stdlib"
 )
 
-func main() {
+func PublicMethod() {
 	fmt.Println("vim-go")
 }
